@@ -8,3 +8,8 @@ Install::
 
   curl -s https://raw.githubusercontent.com/axju/nautilus-extension/main/install.sh | sh
   
+Demo
+----
+.. image:: https://raw.githubusercontent.com/axju/nautilus-extension/main/ext/demo.gif
+   :alt: demo.gif
+   :align: right
