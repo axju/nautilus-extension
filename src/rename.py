@@ -71,7 +71,7 @@ def rename_file(filename):
     filedate = datetime.fromtimestamp(file.stat().st_mtime)
     namedate = try_format(file.stem)
     metadate = try_meta(file)
-    new_filename = get_filename(file, [metadate, filedate, namedate])
+    new_filename = get_filename(file, [metadate, namedate, filedate])
 
     old = list(file.parent.glob(new_filename.stem + '*'))
     if check_copy(file, old):
