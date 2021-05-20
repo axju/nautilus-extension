@@ -19,6 +19,7 @@ FILE_FORMATS = [
     'VID%Y%m%d%H%M%S',
     (FINALE_FORMAT, 19),
     ('IMG-%Y%m%d-', 13),
+    ('VID-%Y%m%d-', 13),
 ]
 
 
